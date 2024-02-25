@@ -1,0 +1,128 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.logo{
+    background-color: #11084a;
+    display: flex;
+    align-items: center;
+    font-family: 'Regan HeavyItalic', sans-serif;
+    justify-content: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 1rem;
+}
+nav{
+    display: flex;
+    background-color: #291f70;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-top: 50px;
+}
+
+nav li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+nav a{
+    color: #ffffff;
+    font-family: 'Reavy Italic',sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    transition: 1s;
+    overflow: hidden;
+    font-weight: 100;
+    font-size: 1.2rem;
+    
+}
+
+a:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+
+.titulo{
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Regan heavyItalic', sans-serif;
+    background-color: #2a154d;
+    text-transform: uppercase;
+    font-style: italic;
+    color: #ffffff;
+    width: 300px;
+    height: 45px;
+    border-radius: 15px;
+    font-weight: 900;
+    font-size: 1rem;
+}
+
+.produtos{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    width: 1200px;
+    margin-left: 130px;
+    margin-bottom: 20px;
+}
+.tenis1{
+    display: flex;
+    flex-direction: column;
+}
+
+.desconto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Regan HeavyItalic', sans-serif;
+    color: #fff;
+    background-color:  rgb(106, 197, 106);
+}
+
+.star-contanier{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.star {
+    font-size: 24px;
+    color: gold; 
+    clip-path: inset(0 0 0 0);
+}
+
+.half-star {
+    display: inline-block;
+    position: absolute;
+    overflow: hidden;
+    margin-left: 5px;
+    clip-path: inset(0 50% 0 0); /* Oculta a metade direita da estrela */
+}
+
+.corte{
+    color: #bd9de4;
+    text-decoration: line-through 0.5px;
+}
+
+.preco{
+    color: #383838;
+}
+
+.paragrafo{
+    display: flex;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
